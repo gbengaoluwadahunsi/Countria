@@ -26,7 +26,7 @@ const DisplayInfo = ({info, weather}) => {
 
                         <section className="timezone">
                         <h4 style={{color: "#030313"}}>time zone(s):</h4>
-                        <section className= "time" style={{marginTop: "0.5em",  fontSize:" 1.5em "}}>
+                        <section className= "time" style={{marginTop: "0.5em",  fontSize:" 1.3em "}}>
                             {info.timezones.map((time , index) => (<h6 key={index}>{time}</h6>))}
                         </section>
 
@@ -34,9 +34,9 @@ const DisplayInfo = ({info, weather}) => {
                         
 
 
-                        <section className="languages">
+                        <section className="timezone">
                             <h4 style={{color: "#030313"}}>language(s):</h4>
-                            <section style={{marginTop: "0.5em",  fontSize:" 1.5em "}}>
+                            <section style={{marginTop: "0.5em",  fontSize:" 1.3em "}}>
                                 {Object.values(info.languages).map((language, index) => (<h6 key={index}>{language}</h6> ))}
                                 
                             </section>                               

@@ -236,6 +236,10 @@ body {
     
   }
 
+  .timezone h6{
+    font-weight: 500;
+  }
+
   .languages{
     text-align: center;
   }
@@ -538,10 +542,6 @@ body {
     
   }
 
-  /* .languages, .timezone{
-    text-align: center;
-    align-items: center;
-  } */
 
   
 
