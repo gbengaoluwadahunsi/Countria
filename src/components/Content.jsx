@@ -54,7 +54,7 @@ const Content = () => {
           const capital = countryResponse.data.capital;
 
           // Use the capital to fetch weather data
-          return axios.get(`http://api.weatherapi.com/v1/current.json?key=72c7356ce4ce485ea84120905240601&q=${capital}&aqi=no`);
+          return axios.get(`http://api.weatherapi.com/v1/current.json?key=${import.meta.env.VITE_SOME_KEY}&q=${capital}&aqi=no`);
         })
         .then(weatherResponse => {
           console.log(weatherResponse.data);
