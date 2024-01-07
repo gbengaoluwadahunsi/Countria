@@ -56,7 +56,7 @@ const Content = () => {
         // variable api_key now has the value set in startup
 
           // Use the capital to fetch weather data
-          return axios.get(`http://api.weatherapi.com/v1/current.json?key=${api_key}&q=${capital}&aqi=no`);
+          return axios.get(`https://api.weatherapi.com/v1/current.json?key=${api_key}&q=${capital}&aqi=no`);
         })
         .then(weatherResponse => {
           console.log(weatherResponse.data);
