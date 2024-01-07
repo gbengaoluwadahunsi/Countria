@@ -121,7 +121,11 @@ body {
   }
 
   .countria-section{
-    padding: 6rem 0 0 20em;
+    
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    padding:  4em 0;
     animation: 5s   slidein;
   
   }
@@ -140,14 +144,14 @@ body {
 
   .homepage h1{    
     color: #f83b66;
-    font-size: 7em;
+    font-size: 6em;
 
   }
 
   .homepage p{
-    margin-top: 1.2em;
     font-size: larger;
-    width: 22em;
+    width: 40%;
+    margin:  1em auto;
     font-weight: bolder;
     color:#ffe3e7; 
     line-height:1.2;
@@ -174,7 +178,7 @@ body {
     text-align: center;
     align-items: center;
     color: #030313;
-    font-size: 1.4em;
+    font-size: 1.2em;
     margin: 1em 0;
   }
 .carousel .image div{
@@ -300,7 +304,7 @@ body {
   .footer h6{
    text-align: center;
    border-top: 1px solid #ffc0cb;
-   font-size: 1em;
+   font-size: 0.6em;
    width: 80%;
    margin: 0 auto;
   color:#ffc0cb;
@@ -329,7 +333,7 @@ body {
   .btn-scrollTop{
     position: fixed;
     bottom: 40px;
-    font-size: 7rem;
+    font-size: 3rem;
     z-index: 1;
     cursor: pointer;
     color: #030313;
@@ -359,6 +363,10 @@ body {
     background-position: center;
   }
 
+  .homepage p{
+    width: 90%;
+  }
+
   .countria-section{
     padding: 6rem 0 0 2em;
     animation: none;
@@ -382,11 +390,11 @@ body {
   }
 
  .carousel h4{
-  font-size: 95%;
+  font-size: 90%;
  }
 
   .info .country-flag{
-    width: 90%;
+    width: 70%;
   }
 
   .coatOfArms{
@@ -446,7 +454,7 @@ body {
 
   .hamburger {
     display: block;
-    font-size: 1.2em;
+    font-size: 24px;
     
   }
 
@@ -464,6 +472,10 @@ body {
 
 
  @media screen and (max-width: 500px) {
+  .homepage h1{
+    font-size: 4em;
+  }
+
   
 
   .footer-info{
@@ -524,7 +536,7 @@ body {
   }
 
   .flag-section div{
-     margin:  0 auto;
+ margin:  0 auto;
   }
 
   .coatOfArms{
@@ -537,7 +549,7 @@ body {
 
  @media screen and (max-width: 364px) {
   .countria-section p{
-    font-size: 95%;
+    font-size: 90%;
     width: 80%;
    }
 
