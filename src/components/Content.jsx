@@ -79,7 +79,7 @@ const Content = () => {
   return (
     <>        
       <form className='search-section' onSubmit={onSearch}>
-        <label htmlFor="find" className='type-country'>Type country </label>
+        <label htmlFor="find" className='type-country'>Type country ... </label>
         <input type='text' id='find' value={value} onChange={handleChange}/>
         <button>search</button>
       </form> 
