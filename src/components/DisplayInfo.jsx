@@ -17,11 +17,11 @@ const DisplayInfo = ({info, weather}) => {
                     <section className='info'>
 
                         <section className='capital'>
-                            <span style={{fontWeight: "bold"}}>capital</span> <span style={{marginLeft: "1.7em"}}>{info.capital}</span>
+                            <span style={{fontWeight: "bold"}}>capital</span> <span >{info.capital}</span>
                             <section style={{padding: "0.4em 0"}}>
-                            <span style={{fontWeight: "600"}}>area</span> <span style={{marginLeft: "3em"}}>{info.area}</span>
+                            <span style={{fontWeight: "600"}}>area</span> <span>{info.area}</span>
                              </section>
-                             <span style={{fontWeight: "bold"}}>region</span> <span style={{marginLeft: "1.8em"}}>{info.region}</span>
+                             <span style={{fontWeight: "bold"}}>region</span> <span>{info.region}</span>
                         </section>
 
                         <section className="timezone">
