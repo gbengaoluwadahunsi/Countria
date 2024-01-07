@@ -8,16 +8,13 @@ import ScrollUp from './components/ScrollUp';
 
 
 const App = () => {
-  const hommie={
-    background: "linear-gradient(to bottom , #581b1be6, rgba(223, 43, 85, 0.2)), url('/Images/test.png')"
-  }
   
   
   return  (
     <div className='container'>
         <div className='app-body'>
           <Navbar/>
-          <main className='homepage' style={hommie}>
+          <main className='homepage'>
             <div className='countria-section'>
               <h1>Countria</h1>
               <p>Countries information,current weather forecast in a fast and exciting manner</p>
