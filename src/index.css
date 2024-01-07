@@ -109,7 +109,7 @@ body {
   .homepage{
     height:24em;
     width: screen;
-    background: linear-gradient(to bottom , #581b1be6, rgba(223, 43, 85, 0.2)), url('/Images/test.png');
+    /* background: linear-gradient(to bottom , #581b1be6, rgba(223, 43, 85, 0.2)), url('/Images/test.png'); */
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;    
