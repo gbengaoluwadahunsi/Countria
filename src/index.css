@@ -29,7 +29,7 @@ body {
   .error {
     position: relative;
     background: lightgrey;
-    font-size: 20px;
+    font-size: 24px;
     border-radius: 5px;
     padding: 1em;
     margin-bottom: 10px;
@@ -84,7 +84,7 @@ body {
 .nav-li ul{
   display: flex;
   justify-content: space-around;
-  width: 32em;
+  width: 36em;
 }
 
 
@@ -95,7 +95,7 @@ body {
     padding: 0.16em 0.75em;
     transition: color 0.5s ease-in-out;
     text-decoration: none;
-    font-size: clamp(1em , 2vh , 2em);
+    font-size: clamp(1em , 4vh , 4em);
     list-style-type: none;
   
   }
@@ -140,7 +140,7 @@ body {
 
   .homepage h1{    
     color: #f83b66;
-    font-size: 3em;
+    font-size: 7em;
 
   }
 
@@ -174,7 +174,7 @@ body {
     text-align: center;
     align-items: center;
     color: #030313;
-    font-size: 0.9em;
+    font-size: 1.4em;
     margin: 1em 0;
   }
 .carousel .image div{
@@ -300,7 +300,7 @@ body {
   .footer h6{
    text-align: center;
    border-top: 1px solid #ffc0cb;
-   font-size: 0.6em;
+   font-size: 1em;
    width: 80%;
    margin: 0 auto;
   color:#ffc0cb;
@@ -329,7 +329,7 @@ body {
   .btn-scrollTop{
     position: fixed;
     bottom: 40px;
-    font-size: 3rem;
+    font-size: 7rem;
     z-index: 1;
     cursor: pointer;
     color: #030313;
@@ -382,11 +382,11 @@ body {
   }
 
  .carousel h4{
-  font-size: 90%;
+  font-size: 95%;
  }
 
   .info .country-flag{
-    width: 70%;
+    width: 90%;
   }
 
   .coatOfArms{
@@ -446,7 +446,7 @@ body {
 
   .hamburger {
     display: block;
-    font-size: 24px;
+    font-size: 1.2em;
     
   }
 
@@ -524,7 +524,7 @@ body {
   }
 
   .flag-section div{
- margin:  0 auto;
+     margin:  0 auto;
   }
 
   .coatOfArms{
@@ -537,7 +537,7 @@ body {
 
  @media screen and (max-width: 364px) {
   .countria-section p{
-    font-size: 90%;
+    font-size: 95%;
     width: 80%;
    }
 
