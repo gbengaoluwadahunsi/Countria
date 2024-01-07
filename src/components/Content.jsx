@@ -4,7 +4,6 @@ import DisplayInfo from './DisplayInfo';
 import CarouselComponent  from './CarouselComponent';
 
 
-
 const Content = () => {
   const [country, setCountry] = useState('canada');
   const [value, setValue] = useState('canada');
@@ -53,8 +52,11 @@ const Content = () => {
           // Extract the capital from the response
           const capital = countryResponse.data.capital;
 
+          const api_key = import.meta.env.VITE_SOME_KEY
+        // variable api_key now has the value set in startup
+
           // Use the capital to fetch weather data
-          return axios.get(`http://api.weatherapi.com/v1/current.json?key=${import.meta.env.VITE_SOME_KEY}&q=${capital}&aqi=no`);
+          return axios.get(`http://api.weatherapi.com/v1/current.json?key=${api_key}&q=${capital}&aqi=no`);
         })
         .then(weatherResponse => {
           console.log(weatherResponse.data);
