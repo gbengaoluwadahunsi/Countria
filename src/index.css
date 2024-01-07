@@ -109,7 +109,7 @@ body {
   .homepage{
     height:24em;
     width: screen;
-    background-image: linear-gradient(to bottom , #581b1be6, rgba(223, 43, 85, 0.4)), url('countries.jpg');
+    background-image: linear-gradient(to bottom , #581b1be6, rgba(223, 43, 85, 0.4)), url('public/countries.jpg');
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;    
