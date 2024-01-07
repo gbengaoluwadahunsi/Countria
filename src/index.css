@@ -236,9 +236,14 @@ body {
     
   }
 
+  .languages{
+    text-align: center;
+  }
+
   .languages li{
     list-style-type: none;
     text-decoration: none;
+    
    
   }
 
@@ -423,7 +428,7 @@ body {
     top: 0;
     text-align: center;
     justify-content: space-around;
-    /* align-items: center; */
+    
     
   }
   
@@ -533,10 +538,10 @@ body {
     
   }
 
-  .languages, .timezone{
+  /* .languages, .timezone{
     text-align: center;
     align-items: center;
-  }
+  } */
 
   
 

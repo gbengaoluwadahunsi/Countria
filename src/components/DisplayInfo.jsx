@@ -36,10 +36,11 @@ const DisplayInfo = ({info, weather}) => {
 
                         <section className="languages">
                             <h4 style={{color: "#030313"}}>language(s):</h4>
-
-                                <ul>
-                                    {Object.values(info.languages).map((language, index) => (<li key={index}>{language}</li> ))}
-                                </ul>
+                            <section style={{marginTop: "0.5em",  fontSize:" 1.5em "}}>
+                                {Object.values(info.languages).map((language, index) => (<h6 key={index}>{language}</h6> ))}
+                                
+                            </section>                               
+                                
                         </section>
 
                         <section className="flag-section">
