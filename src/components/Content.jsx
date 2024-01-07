@@ -52,11 +52,9 @@ const Content = () => {
           // Extract the capital from the response
           const capital = countryResponse.data.capital;
 
-          const api_key = import.meta.env.VITE_SOME_KEY
-        // variable api_key now has the value set in startup
-
+        
           // Use the capital to fetch weather data
-          return axios.get(`https://api.weatherapi.com/v1/current.json?key=${api_key}&q=${capital}&aqi=no`);
+          return axios.get(`https://api.weatherapi.com/v1/current.json?key=72c7356ce4ce485ea84120905240601&q=${capital}&aqi=no`);
         })
         .then(weatherResponse => {
           console.log(weatherResponse.data);
