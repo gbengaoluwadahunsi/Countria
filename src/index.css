@@ -432,8 +432,7 @@ body {
     top: 0;
     text-align: center;
     justify-content: space-around;
-    
-    
+    z-index: 3000;    
   }
   
 
@@ -441,10 +440,12 @@ body {
     display: block;
     border-radius: 30%;
     position: absolute;
-    z-index: 1000;
-    top: 1.6em; 
-    right: 1.8em; 
+    z-index: 5000;
+    top: 0.8em; 
+    right: 2.2em; 
     color: #cf4465;
+    position: fixed;
+
 
   }
   
