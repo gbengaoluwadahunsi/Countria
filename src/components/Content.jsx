@@ -53,7 +53,6 @@ const Content = () => {
           console.log(countryResponse.data);
           setInfo(countryResponse.data);
 
-          alert(countryResponse.data.)
 
           // Extract the capital from the response
           const capital = countryResponse.data.capital;
