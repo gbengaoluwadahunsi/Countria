@@ -6,7 +6,7 @@ import CarouselComponent  from './CarouselComponent';
 
 const Content = () => {
   const [country, setCountry] = useState('canada');
-  const [value, setValue] = useState('');
+  const [value, setValue] = useState('canada');
   const [weather, setWeather] = useState({
 
     location : {
