@@ -78,7 +78,7 @@ const Content = () => {
   const onSearch = (event) => {
     event.preventDefault();
     setCountry(value);
-    setWeather(value);
+    setValue('');
   };
 
   return (

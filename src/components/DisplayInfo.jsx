@@ -4,7 +4,7 @@
 
 
 const DisplayInfo = ({info, weather}) => {
-    alert(info.name.common)
+    
 
   
   return (
