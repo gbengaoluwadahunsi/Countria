@@ -23,7 +23,7 @@ import { useEffect , useState } from 'react';
 
    return (
     <>     
-        <button className="btn-scrollTop" style={{display: isVisible ? 'block':'none'}} onClick={goTop}>
+        <button className="btn-scrollTop text" style={{display: isVisible ? 'block':'none'}} onClick={goTop}>
             <FaArrowCircleUp/>
         </button>
 
