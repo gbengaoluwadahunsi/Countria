@@ -18,6 +18,7 @@ const App = () => {
             <div className='countria-section'>
               <h1>Countria</h1>
               <p>Countries information,current weather forecast in a fast and exciting manner.</p>
+              
             </div>
           </main>
           <Content  />        

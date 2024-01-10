@@ -6,7 +6,7 @@ import CarouselComponent  from './CarouselComponent';
 
 const Content = () => {
   const [country, setCountry] = useState('canada');
-  const [value, setValue] = useState('canada');
+  const [value, setValue] = useState('');
   const [weather, setWeather] = useState({
 
     location : {
@@ -37,11 +37,9 @@ const Content = () => {
     }
   });
 
-  const cont = ["nig" , "sott"]
+ 
 
-  if (cont.includes(value)){
-    alert("e dey oo")
-  }
+  
 
   useEffect(() => {
     console.log('effect run, country is now', country);
@@ -54,6 +52,8 @@ const Content = () => {
         .then(countryResponse => {
           console.log(countryResponse.data);
           setInfo(countryResponse.data);
+
+          alert(countryResponse.data.)
 
           // Extract the capital from the response
           const capital = countryResponse.data.capital;
