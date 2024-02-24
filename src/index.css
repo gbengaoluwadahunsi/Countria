@@ -532,12 +532,3 @@ li {
 }
 
 
-/* @media screen 
-  and (max-width: 480px){
-    .carousel .image img {
-      width: 100%;
-      aspect-ratio: 2/1;
-      padding-right:0.8rem;
-      
-    }
-} */
